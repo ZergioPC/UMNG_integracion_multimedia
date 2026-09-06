@@ -1,4 +1,22 @@
+@font-face {
+  font-family: "Phudu";
+  src: url("./fonts/Phudu/Phudu-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("./fonts/Outfit/Outfit-VariableFont_wght.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Outfit";
+}
+
+h1, h2, h3 ,h4 {
+  font-family: "Phudu";
 }
