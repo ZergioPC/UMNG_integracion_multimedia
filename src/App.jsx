@@ -1,11 +1,21 @@
 import './App.css'
 
+import { HomeScene } from './scenes/HomeScene'
+import { SelectCuentoScene } from './scenes/SelectCuentoScene'
+import { MapScene } from './scenes/MapScene'
+
+// Transiciones
+import { Transition01 } from './utils/Transitions/Transition01'
+
 function App() {
 
   return (
     <>
-      <h1>Proyecto de Integración Multimedia</h1>
-      <p>Prueba de fuente</p>
+      <Transition01 />
+
+      <HomeScene />
+      <SelectCuentoScene />
+      <MapScene />
     </>
   )
 }
