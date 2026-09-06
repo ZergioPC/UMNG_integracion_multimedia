@@ -1,0 +1,36 @@
+[
+  {
+    "title":"Una visita al mercado"
+  },{
+    "id": 0,
+    "content": {
+      "paisa": "Laura acompañó a su abuela al mercado.",
+      "rolo": "Laura acompañó a su abuela al mercado.",
+      "costeño": "Laura acompañó a su abuela al mercado."
+    }
+  },
+  {
+    "id": 1,
+    "content": {
+      "paisa": "—Mija, escojamos unas frutas bien buenas— dijo la abuela.",
+      "rolo": "—Sumercé, ¿escogemos unas frutas?— preguntó Laura.",
+      "costeño": "—¡Ajá, abuela! Vamos a escoger unas frutas bien buenas— dijo."
+    }
+  },
+  {
+    "id": 2,
+    "content": {
+      "paisa": "Compraron frutas, pan y unas flores para la casa.",
+      "rolo": "Compraron frutas, pan y unas flores para la casa.",
+      "costeño": "Compraron frutas, pan y unas flores para la casa."
+    }
+  },
+  {
+    "id": 3,
+    "content": {
+      "paisa": "Mientras caminaban, Laura saludó a los vendedores y escogió una naranja grande y dulce.",
+      "rolo": "Mientras caminaban, Laura saludó a los vendedores y escogió una naranja grande y dulce.",
+      "costeño": "Mientras caminaban, Laura saludó a los vendedores y escogió una naranja grande y dulce."
+    }
+  }
+]

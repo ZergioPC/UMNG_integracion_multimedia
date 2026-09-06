@@ -1,0 +1,36 @@
+[
+  {
+    "title":"La lluvia inesperada"
+  },{
+    "id": 0,
+    "content": {
+      "costeño": "Tomás salió a jugar cuando el sol estaba brillante.",
+      "paisa": "Tomás salió a jugar cuando el sol estaba brillante.",
+      "rolo": "Tomás salió a jugar cuando el sol estaba brillante."
+    }
+  },
+  {
+    "id": 1,
+    "content": {
+      "costeño": "—¡Qué sol tan fuerte, compae!— dijo.",
+      "paisa": "—¡Hombre, qué día tan bueno!— dijo.",
+      "rolo": "—¡Qué día tan chévere!— dijo."
+    }
+  },
+  {
+    "id": 2,
+    "content": {
+      "costeño": "De repente, llegaron unas nubes oscuras y comenzó a llover.",
+      "paisa": "De repente, llegaron unas nubes oscuras y comenzó a llover.",
+      "rolo": "De repente, llegaron unas nubes oscuras y comenzó a llover."
+    }
+  },
+  {
+    "id": 3,
+    "content": {
+      "costeño": "Tomás corrió a la casa y dejó sus zapatos junto a la puerta para que se secaran.",
+      "paisa": "Tomás corrió a la casa y dejó sus zapatos junto a la puerta para que se secaran.",
+      "rolo": "Tomás corrió a la casa y dejó sus zapatos junto a la puerta para que se secaran."
+    }
+  }
+]

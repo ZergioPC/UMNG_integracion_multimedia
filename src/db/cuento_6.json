@@ -1,0 +1,44 @@
+[
+  {
+    "title":"La mascota de Ana"
+  },{
+    "id": 0,
+    "content": {
+      "paisa": "Ana tenía un perro llamado Bruno.",
+      "rolo": "Ana tenía un perro llamado Bruno.",
+      "costeño": "Ana tenía un perro llamado Bruno."
+    }
+  },
+  {
+    "id": 1,
+    "content": {
+      "paisa": "—¡Mijo, vení pues!— le dijo Ana a su perro, jugando.",
+      "rolo": "—¡Pilas, Bruno! Ven acá— le dijo Ana a su perro.",
+      "costeño": "—¡Ajá, Bruno! Ven acá, pelao— le dijo jugando."
+    }
+  },
+  {
+    "id": 2,
+    "content": {
+      "paisa": "Todas las tardes le daba agua y comida.",
+      "rolo": "Todas las tardes le daba agua y comida.",
+      "costeño": "Todas las tardes le daba agua y comida."
+    }
+  },
+  {
+    "id": 3,
+    "content": {
+      "paisa": "Un día, Bruno encontró una pelota vieja y corrió por el patio con ella.",
+      "rolo": "Un día, Bruno encontró una pelota vieja y corrió por el patio con ella.",
+      "costeño": "Un día, Bruno encontró una pelota vieja y corrió por el patio con ella."
+    }
+  },
+  {
+    "id": 4,
+    "content": {
+      "paisa": "Ana se rio y jugó con su mascota.",
+      "rolo": "Ana se rio y jugó con su mascota.",
+      "costeño": "Ana se rio y jugó con su mascota."
+    }
+  }
+]

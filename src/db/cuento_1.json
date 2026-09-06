@@ -1,0 +1,52 @@
+[
+  {
+    "title":"La mañana de la escuela"
+  },{
+    "id": 0,
+    "content": {
+      "paisa": "—¡Quiubo, mijo! Ya es hora de ir para la escuela —dijo la mamá de Mateo.",
+      "rolo": "—¡Quiubo! Ya es hora de ir a la escuela —dijo la mamá de Mateo.",
+      "costeño": "—¡Ajá, pelao! Ya es hora de ir pa' la escuela —dijo la mamá de Mateo."
+    }
+  },
+  {
+    "id": 1,
+    "content": {
+      "paisa": "Mateo miró por la ventana y respondió:",
+      "rolo": "Mateo miró por la ventana y respondió:",
+      "costeño": "Mateo miró por la ventana y dijo:"
+    }
+  },
+  {
+    "id": 2,
+    "content": {
+      "paisa": "—Pues sí, mamá. ¡Qué mañana tan bonita! Ya voy.",
+      "rolo": "—¡De una! Qué mañana tan bonita. Ya voy.",
+      "costeño": "—¡Eche, qué mañana tan bonita! Ya voy."
+    }
+  },
+  {
+    "id": 3,
+    "content": {
+      "paisa": "Guardó sus cuadernos, tomó el desayuno y salió con su mochila.",
+      "rolo": "Guardó sus cuadernos, tomó el desayuno y salió con su mochila.",
+      "costeño": "Guardó sus cuadernos, tomó el desayuno y salió con su mochila."
+    }
+  },
+  {
+    "id": 4,
+    "content": {
+      "paisa": "En el camino saludó a su vecino:",
+      "rolo": "En el camino saludó a su vecino:",
+      "costeño": "En el camino saludó a su vecino:"
+    }
+  },
+  {
+    "id": 5,
+    "content": {
+      "paisa": "—¡Qué más, parce! ¡Nos vemos después!",
+      "rolo": "—¡Quiubo! ¿Todo bien? ¡Nos vemos después!",
+      "costeño": "—¡Ajá, compae! ¡Nos vemos después!"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "title":"El paseo al río"
+  },{
+    "id": 0,
+    "content": {
+      "paisa": "Un domingo, una familia fue al río.",
+      "rolo": "Un domingo, una familia fue al río.",
+      "costeño": "Un domingo, una familia fue al río."
+    }
+  },
+  {
+    "id": 1,
+    "content": {
+      "paisa": "—¡Qué paseo tan bacano!— dijo uno de los niños.",
+      "rolo": "—¡De una! Este paseo va a estar chévere— dijo uno de los niños.",
+      "costeño": "—¡Qué plan tan bacano!— dijo uno de los niños."
+    }
+  },
+  {
+    "id": 2,
+    "content": {
+      "paisa": "Llevaron comida, agua y una pelota.",
+      "rolo": "Llevaron comida, agua y una pelota.",
+      "costeño": "Llevaron comida, agua y una pelota."
+    }
+  },
+  {
+    "id": 3,
+    "content": {
+      "paisa": "Los niños jugaron cerca de sus padres y recogieron algunas hojas para hacer un pequeño dibujo al regresar a casa.",
+      "rolo": "Los niños jugaron cerca de sus padres y recogieron algunas hojas para hacer un pequeño dibujo al regresar a casa.",
+      "costeño": "Los niños jugaron cerca de sus padres y recogieron algunas hojas para hacer un pequeño dibujo al regresar a casa."
+    }
+  }
+]

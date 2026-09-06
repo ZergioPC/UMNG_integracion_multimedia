@@ -1,0 +1,36 @@
+[
+  {
+    "title":"El balón perdido"
+  },{
+    "id": 0,
+    "content": {
+      "paisa": "Después del recreo, Samuel no encontraba su balón.",
+      "rolo": "Después del recreo, Samuel no encontraba su balón.",
+      "costeño": "Después del recreo, Samuel no encontraba su balón."
+    }
+  },
+  {
+    "id": 1,
+    "content": {
+      "paisa": "—¡Pues, hombre! ¿Dónde estará?— dijo Samuel.",
+      "rolo": "—¡Paila! ¿Dónde se habrá metido?— dijo Samuel.",
+      "costeño": "—¡Ajá! ¿Dónde se habrá metido esta vaina?— dijo Samuel."
+    }
+  },
+  {
+    "id": 2,
+    "content": {
+      "paisa": "Buscó debajo de una banca y detrás de un árbol.",
+      "rolo": "Buscó debajo de una banca y detrás de un árbol.",
+      "costeño": "Buscó debajo de una banca y detrás de un árbol."
+    }
+  },
+  {
+    "id": 3,
+    "content": {
+      "paisa": "Al final, un amigo lo encontró cerca de la cancha y los dos se fueron a jugar.",
+      "rolo": "Al final, un amigo lo encontró cerca de la cancha y los dos se fueron a jugar.",
+      "costeño": "Al final, un amigo lo encontró cerca de la cancha y los dos se fueron a jugar."
+    }
+  }
+]

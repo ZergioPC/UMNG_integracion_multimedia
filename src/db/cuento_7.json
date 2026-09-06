@@ -1,0 +1,36 @@
+[
+  {
+    "title":"El cumpleaños de Felipe"
+  },{
+    "id": 0,
+    "content": {
+      "paisa": "Felipe cumplió ocho años.",
+      "rolo": "Felipe cumplió ocho años.",
+      "costeño": "Felipe cumplió ocho años."
+    }
+  },
+  {
+    "id": 1,
+    "content": {
+      "paisa": "—¡Pues sí! Hoy es mi cumpleaños— dijo Felipe contento.",
+      "rolo": "—¡Qué chévere! Hoy cumplo años— dijo Felipe contento.",
+      "costeño": "—¡Ajá! Hoy sí hay fiesta— dijo Felipe contento."
+    }
+  },
+  {
+    "id": 2,
+    "content": {
+      "paisa": "Sus amigos llegaron por la tarde y llevaron pequeños regalos.",
+      "rolo": "Sus amigos llegaron por la tarde y llevaron pequeños regalos.",
+      "costeño": "Sus amigos llegaron por la tarde y llevaron pequeños regalos."
+    }
+  },
+  {
+    "id": 3,
+    "content": {
+      "paisa": "Después de cantar, todos compartieron una torta y jugaron en el patio.",
+      "rolo": "Después de cantar, todos compartieron una torta y jugaron en el patio.",
+      "costeño": "Después de cantar, todos compartieron una torta y jugaron en el patio."
+    }
+  }
+]
