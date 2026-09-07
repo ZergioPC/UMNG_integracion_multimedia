@@ -1,0 +1,24 @@
+.CuentoReader {
+  max-width: 720px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.CuentoReader h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.frases {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.frases p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}

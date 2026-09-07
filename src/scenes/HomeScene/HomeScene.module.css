@@ -1,0 +1,21 @@
+.HomeScene {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  min-height: 100vh;
+  padding: 24px;
+  text-align: center;
+}
+
+.startButton {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #443142;
+  font-family: "Outfit";
+  font-size: 1rem;
+  cursor: pointer;
+}

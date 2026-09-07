@@ -12,4 +12,8 @@ App para comparar frases de diferentes cuentos. El usuario escoge un cuento, y l
 - CSS (module.css)
 - pnpm
 
+## Estilos CSS
+
+Tener un enfoque Mobile-First
+
 > !important NO EJECUTAR SCRIPTS SIN AUTORIZACION
