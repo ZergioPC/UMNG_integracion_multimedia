@@ -9,7 +9,7 @@ App para comparar frases de diferentes cuentos. El usuario escoge un cuento, y l
 - React
 - JavaScript
 - Vite
-- CSS (module.css)
+- Bootstrap (CSS)
 - pnpm
 
 ## Estilos CSS

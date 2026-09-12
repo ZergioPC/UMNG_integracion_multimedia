@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { REGIONS } from "../../db";
 import { CuentoReader } from "../../utils/CuentoReader";
-import styles from "./MapScene.module.css";
 
 const REGION_LABELS = {
   paisa: "Paisa",
@@ -13,17 +12,17 @@ function MapScene({ cuento, onBack }) {
   const [region, setRegion] = useState("paisa");
 
   return (
-    <section className={styles.MapScene}>
-      <button className={styles.backButton} onClick={onBack}>
+    <section className="d-flex flex-column align-items-center gap-4 min-vh-100 p-3">
+      <button className="btn btn-light align-self-start" onClick={onBack}>
         Volver
       </button>
 
-      <div className={styles.regionSelector}>
+      <div className="d-flex gap-3">
         {REGIONS.map((regionName) => (
           <button
             key={regionName}
-            className={`${styles.regionButton} ${
-              region === regionName ? styles.active : ""
+            className={`btn btn-lg ${
+              region === regionName ? "btn-light" : "btn-outline-light"
             }`}
             onClick={() => setRegion(regionName)}
           >
