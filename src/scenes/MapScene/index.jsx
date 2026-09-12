@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { REGIONS } from "../../db";
 import { CuentoReader } from "../../utils/CuentoReader";
+import { CuentoComparer } from "../../utils/CuentoComparer";
 
 const REGION_LABELS = {
   paisa: "Paisa",
@@ -8,8 +9,14 @@ const REGION_LABELS = {
   costeño: "Costeño",
 };
 
+const VIEWS = [
+  { key: "lectura", label: "Cuento" },
+  { key: "comparar", label: "Comparar" },
+];
+
 function MapScene({ cuento, onBack }) {
   const [region, setRegion] = useState("paisa");
+  const [view, setView] = useState("lectura");
 
   return (
     <section className="d-flex flex-column align-items-center gap-4 min-vh-100 p-3">
@@ -17,23 +24,42 @@ function MapScene({ cuento, onBack }) {
         Volver
       </button>
 
-      <div className="d-flex gap-3">
-        {REGIONS.map((regionName) => (
+      {/* Selector de vista: lectura normal o comparación */}
+      <div className="btn-group" role="group" aria-label="Vista">
+        {VIEWS.map(({ key, label }) => (
           <button
-            key={regionName}
+            key={key}
             className={`btn btn-lg ${
-              region === regionName ? "btn-light" : "btn-outline-light"
+              view === key ? "btn-light" : "btn-outline-light"
             }`}
-            onClick={() => setRegion(regionName)}
+            onClick={() => setView(key)}
           >
-            {REGION_LABELS[regionName]}
+            {label}
           </button>
         ))}
       </div>
 
-      {/* Panel de lectura actual: una región a la vez.
-          Para comparar, renderizar aquí varios CuentoReader lado a lado. */}
-      <CuentoReader cuento={cuento} region={region} />
+      {view === "lectura" ? (
+        <>
+          <div className="d-flex gap-3">
+            {REGIONS.map((regionName) => (
+              <button
+                key={regionName}
+                className={`btn btn-lg ${
+                  region === regionName ? "btn-light" : "btn-outline-light"
+                }`}
+                onClick={() => setRegion(regionName)}
+              >
+                {REGION_LABELS[regionName]}
+              </button>
+            ))}
+          </div>
+
+          <CuentoReader cuento={cuento} region={region} />
+        </>
+      ) : (
+        <CuentoComparer cuento={cuento} />
+      )}
     </section>
   );
 }
